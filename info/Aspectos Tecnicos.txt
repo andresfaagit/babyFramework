@@ -1,0 +1,43 @@
+Aspectos técnicos
+
+- Desarrollar en POO (Programacion Ortientada a Objetos).
+	
+- Coexion a Base de Datos con PDO (PHP Data Objects).
+
+- Bassado en el patrón MVC (Modelo Vista Controlador).
+
+- URLs amigables.
+
+- Debe contar con un archivo de configuración principal  (baby_config.php).
+
+- Un Archivo de configuración de la Base de Datos.
+
+- Todas las peticiones seran tomadas dentro del index.php (sin importar lo que escriba el usuario en la URL).
+
+- Clase para manejar vistas y renderizarlas.
+
+- Clase para autocargar archivos y clases requeridas. (Autoloader para no hacer todos los includes a mano).
+
+- Clase para redireción entre rutas.
+
+- Archivo de funciones independientes (No requeridas para el framewok pero si para el proyecto).
+
+- Clase para manejar mensajes flash al usuario.
+
+- Clase para generar un token CSRF para seguridad. (Cross-Site Request Forgery = falsificación de petición en sitios cruzados).
+
+- Un Controlador y Modelo principal.
+
+- Clase para conexión a base de datos.
+
+- Clase para enviar correos de notificación.
+
+- Clase principal para iniciar una instancia del sistema.
+
+Aspectos Visuales
+
+- Boostrap 4
+- Font Aweson 5
+- Diseño simple
+- Logotipo Oficial y colores de identidad
+- Requerimos solo una vista inicial para ver el sistema y una de error.

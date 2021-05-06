@@ -1,0 +1,16 @@
+MVC
+
+Patron de arquitectura
+Modelo = Datos
+Vista = Interface Grafica
+Controlador = 
+
+	Vista -> Controlador -> Modelo
+	Vista <- Controlador <- Modelo
+
+Hay otros patrones : MVP
+Model - View - Presenter
+
+A diferencia de MVC el Presenter coordina tanto al modelo como a la vista
+	
+	

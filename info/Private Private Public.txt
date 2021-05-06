@@ -1,0 +1,3 @@
+// private = no puede ser utilizada en ningún otro lado más que dentro de la clase dueña
+// protected = puede ser utilizada por la clase dueña e hijas, pero no por fuera
+// public = puede ser utilizada por fuera de la clase, dentro de la clase dueña e hijas
